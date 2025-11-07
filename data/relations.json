@@ -1,0 +1,16 @@
+[
+    {
+        "teacher": "tanvi",
+        "subject": "dsm",
+        "class": "fe",
+        "room": "102",
+        "time": "9-10"
+    },
+    {
+        "teacher": "pratham",
+        "subject": "coa",
+        "class": "fe",
+        "room": "201",
+        "time": "10-11"
+    }
+]

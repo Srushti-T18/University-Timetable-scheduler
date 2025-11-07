@@ -1,0 +1,22 @@
+{
+    "teachers": [
+        "tanvi",
+        "pratham"
+    ],
+    "subjects": [
+        "dsm",
+        "coa"
+    ],
+    "rooms": [
+        "102",
+        "201"
+    ],
+    "classes": [
+        "fe",
+        "fe"
+    ],
+    "timeslots": [
+        "9-10",
+        "10-11"
+    ]
+}
