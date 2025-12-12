@@ -9,14 +9,14 @@ def main_window():
     root.geometry("520x380")
     root.config(bg="#f7f7f7")
 
-    tk.Label(root, text="🎓 University Timetable Scheduler",
+    tk.Label(root, text="University Timetable Scheduler",
              font=("Helvetica", 18, "bold"), bg="#f7f7f7").pack(pady=24)
 
-    tk.Button(root, text="➕ Add Base Data", width=28, height=2,
+    tk.Button(root, text="Add Base Data", width=28, height=2,
               command=lambda: open_add_data_window(root)).pack(pady=8)
-    tk.Button(root, text="🔗 Define Relations", width=28, height=2,
+    tk.Button(root, text="Define Relations", width=28, height=2,
               command=lambda: open_relations_window(root)).pack(pady=8)
-    tk.Button(root, text="🗓️ Generate & View Timetable", width=28, height=2,
+    tk.Button(root, text="Generate & View Timetable", width=28, height=2,
               command=lambda: open_timetable_window(root)).pack(pady=8)
 
     tk.Label(root, text="Created using Set Theory · Relations · Logic · Pigeonhole Principle",
