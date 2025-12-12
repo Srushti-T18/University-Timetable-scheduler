@@ -16,7 +16,7 @@ def open_timetable_window(parent):
     if result["conflicts"]:
         messagebox.showerror("Conflicts Found", "\n".join(result["conflicts"]))
         # Also show what relations exist
-    tk.Label(win, text="📅 Generated Timetable", font=("Arial", 14, "bold"), bg="#ffffff").pack(pady=12)
+    tk.Label(win, text="Generated Timetable", font=("Arial", 14, "bold"), bg="#ffffff").pack(pady=12)
 
     frame = tk.Frame(win)
     frame.pack(fill="both", expand=True, padx=12, pady=8)
